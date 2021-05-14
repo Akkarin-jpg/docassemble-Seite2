@@ -1,0 +1,145 @@
+mandatory: true
+question: Hier ist Ihr Dokument
+event: some_event
+attachment:
+  - name: antrag_variablen_komplett
+    filename: antrag_variablen_komplett
+    pdf template file: antrag_variablen_komplett.pdf
+    fields:
+      - "antragsart": etwas
+      - "antragsteller_wohngeldnummer": etwas
+      - "antragsteller_familienname": etwas
+      - "antragsteller_vorname": etwas
+      - "antragsteller_geburtsdatum": etwas
+      - "antragsteller_telefon": etwas
+      - "antragsteller_email": etwas
+      - "antragsteller_persoenliche_verhaeltnisse": etwas
+      - "wohnung_postleitzahl": etwas
+      - "wohnung_ort": etwas
+      - "wohnung_strasse": etwas
+      - "wohnung_hausnummer": etwas
+      - "wohnung_etage": etwas
+      - "wohnung_wohnungsnummer": etwas
+      - "antragsteller_kreditinstitut_name": etwas
+      - "antragsteller_bankleitzahl": etwas
+      - "antragsteller_kontonummer": etwas
+      - "antragsteller_kontoinhaber": etwas
+      - "zahlungsempfaenger": etwas
+      - "mittelpunkt_lebensbeziehungen": etwas
+      - "mittelpunkt_lebensbeziehungen_extra": etwas
+      - "antragsteller_wohnverhaeltnisse": etwas
+      - "vermieter_familienname": etwas
+      - "vermieter_vorname": etwas
+      - "vermieter_strasse": etwas
+      - "vermieter_hausnummer": etwas
+      - "vermieter_postleitzahl": etwas
+      - "vermieter_ort": etwas
+      - "vermieter_telefon": etwas
+      - "warmmiete": etwas
+      - "datum_einzug": etwas
+      - "untervermietung_und_mitnutzung": etwas
+      - "gewerbliche_nutzung": etwas
+      - "gewerbliche_nutzung_qm": etwas
+      - "zuschuesse": etwas
+      - "zuschuesse_antrag": etwas
+      - "antragsteller_kpversicherung": etwas
+      - "antragsteller_rlversicherung": etwas
+      - "antragsteller_bruttoeinkuenfte_steuern": etwas
+      - "antragsteller_geburtsname": ${ antragsteller_geburtsname }
+      - "antragsteller_geschlecht": ${ antragsteller_geschlecht }
+      - "antragsteller_geburtsort": ${ antragsteller_geburtsort }
+      - "antragsteller_kosten_art": etwas
+      - "antragsteller_familienstand": ${ antragsteller_familienstand }
+      - "antragsteller_ausgeuebte_taetigkeit": ${ antragsteller_ausgeubte_taetigkeit }
+      - "antragsteller_staatsangehoerigkeit": ${ antragsteller_staatsangehoerigkeit }
+      - "antragsteller_bruttoeinkuenfte": ${ antragsteller_bruttoeinkuenfte }
+      - "antragsteller_bruttoeinkuenfte_summe": ${ antragsteller_brutteeinkuenfte_summe }
+      - "antragsteller_kosten_jahresbetrag": ${ antragsteller_kosten_jahresbetrag }
+      - "person2_familienname": etwas
+      - "person2_geburtsname": etwas
+      - "person2_bruttoeinkuenfte_steuern": etwas
+      - "person2_kpversicherung": etwas
+      - "person2_rlversicherung": etwas
+      - "person2_geschlecht": etwas
+      - "person2_vorname": etwas
+      - "person2_geburtsdatum": etwas
+      - "person2_geburtsort": etwas
+      - "person2_kosten_art": etwas
+      - "person2_familienstand": etwas
+      - "person2_vpverhaeltnis": etwas
+      - "person2_ausgeuebte_taetigkeit": etwas
+      - "person2_bruttoeinkuenfte": etwas
+      - "person2_bruttoeinkuenfte_summe": etwas
+      - "person2_kosten_jahresbetrag": etwas
+      - "person2_staatsangehoerigkeit": etwas
+      - "person3_familienname": etwas
+      - "person3_geburtsname": etwas
+      - "person3_bruttoeinkuenfte_steuern": etwas
+      - "person3_kpversicherung": etwas
+      - "person3_rlversicherung": etwas
+      - "person3_geschlecht": etwas
+      - "person3_vorname": etwas
+      - "person3_geburtsdatum": etwas
+      - "person3_geburtsort": etwas
+      - "person3_kosten_art": etwas
+      - "person3_familienstand": etwas
+      - "person3_vpverhaeltnis": etwas
+      - "person3_ausgeuebte_taetigkeit": etwas
+      - "person3_bruttoeinkuenfte": etwas
+      - "person3_bruttoeinkuenfte_summe": etwas
+      - "person3_kosten_jahresbetrag": etwas
+      - "person3_staatsangehoerigkeit": etwas
+      - "verstorbener_datum": etwas
+      - "verstorbener": etwas
+      - "verstorbener_name": etwas
+      - "wohnungswechsel_datum": etwas
+      - "wohnungswechsel": etwas
+      - "weitere_person_datum": etwas
+      - "weitere_person": etwas
+      - "weitere_person_name": etwas
+      - "einnahmen": etwas
+      - "einnahmen1_name": etwas
+      - "einnahmen1_vorname": etwas
+      - "einnahmen1_datum": etwas
+      - "einnahmen2_name": etwas
+      - "einnahmen2_vorname": etwas
+      - "einnahmen2_datum": etwas
+      - "einnahmen3_name": etwas
+      - "einnahmen3_vorname": etwas
+      - "einnahmen3_datum": etwas
+      - "einnahmen_grund": etwas
+      - "kindergeld": etwas
+      - "kindergeld_anzahl": etwas
+      - "kindergeld_name": etwas
+      - "sozialleistungen": etwas
+      - "sozialleistungen_art": etwas
+      - "sozialleistungen_name": etwas
+      - "sozialleistungen_vorname": etwas
+      - "sozialleistungen_antragsdatum_bezugszeitraum": etwas
+      - "unterhaltszahlungen": etwas
+      - "beeintraechtigungen1_name": etwas
+      - "beeintraechtigungen2_name": etwas
+      - "beeintraechtigungen3_name": etwas
+      - "beeintraechtigungen1_vorname": etwas
+      - "beeintraechtigungen2_vorname": etwas
+      - "beeintraechtigungen3_vorname": etwas
+      - "beeintraechtigungen1_grad": etwas
+      - "beeintraechtigungen2_grad": etwas
+      - "beeintraechtigungen3_grad": etwas
+      - "beeintraechtigungen1_pflegebeduerftig": No
+      - "beeintraechtigungen2_pflegebeduerftig": No
+      - "beeintraechtigungen3_pflegebeduerftig": No
+      - "beeintraechtigungen1_opfer": No
+      - "beeintraechtigungen2_opfer": No
+      - "beeintraechtigungen3_opfer": No
+---
+question: |
+  Bitt geben sie folgende Daten der anatragstellenden Person an:
+fields:
+  - Geburtsname: antragsteller_geburtsname
+  - Geschlecht: antragsteller_geschlecht
+    choices:
+      - m
+      - w
+      - d
+  - Geburtsort: antragsteller_geburtsort
